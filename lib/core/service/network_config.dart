@@ -17,6 +17,6 @@
 // https://sns-staging.yimei180.com/api/v4/index/hot-top
 
 class ServiceConfig {
-  static const BASE_URL = 'https://sns-staging.yimei180.com';
+  static const BASE_URL = 'https://sns-staging.yimei180.com/api';
   static const TIMEOUT = 1000;
 }

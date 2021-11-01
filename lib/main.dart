@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:yimeiinfo_flutter/core/service/service.dart';
 import 'package:yimeiinfo_flutter/pages/mainscreen.dart';
 import 'package:yimeiinfo_flutter/core/my_router.dart';
 
 main(List<String> args) {
+  YMService.requestHotTopData();
+
   runApp(const MyAPP());
 }
 

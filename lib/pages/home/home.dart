@@ -1,4 +1,8 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:yimeiinfo_flutter/core/service/service.dart';
+import 'package:yimeiinfo_flutter/shared/models/news_item_model.dart';
 
 class HomePage extends StatelessWidget {
   static const ROUTE_NAME = '/home';
